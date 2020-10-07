@@ -80,3 +80,46 @@ inquirer.prompt([
     const {license, title, description, installation, usage, contribution, test, githubUsername,githubProjectName, email} =res;
     printREADME(license, title, description, installation, usage, contribution, test, githubUsername,githubProjectName, email);
 });
+
+function printREADME(license, title, description, installation, usage, contribution, test, githubUsername,githubProjectName, email){
+    let readMe =`### ${license}
+    
+    ### ${title}
+    <br>
+    
+    ### Description
+    ${description}
+    
+    ### Table of Contents
+    -Installation
+    -Usage
+    -Contribution
+    -Test
+    -Link
+    -Contact
+    
+    ### Installation
+    ${installation}
+    
+    ### Contribution
+    ${contribution}
+    
+    ### Usage
+    ${usage}
+    
+    ### Contribution
+    ${contribution}
+    
+    ### Test
+    ${test}
+    
+    ### README Entitled Questions
+    Github.com/${githubUsername}/${githubProjectName}
+    
+    ### Contact Info
+    ${email}`
+
+    console.log(readMe);
+
+    saveREADME(readMe);
+}
