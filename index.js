@@ -75,4 +75,8 @@ inquirer.prompt([
         name:'email',
     }
 
-])
+]).then(res => {
+    // console.log(res)
+    const {license, title, description, installation, usage, contribution, test, githubUsername,githubProjectName, email} =res;
+    printREADME(license, title, description, installation, usage, contribution, test, githubUsername,githubProjectName, email);
+});
