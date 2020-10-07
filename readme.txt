@@ -28,9 +28,6 @@ contriibution guidelines
 Usage
 usage info
 
-Contribution
-Who else contributed
-
 Test
 test instructions
 
