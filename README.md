@@ -2,7 +2,7 @@
 
 ### Deployed Application 
 
-[Video of README Generator](./assets/readme-generator.webm)
+[Video of README Generator](https://drive.google.com/file/d/1indS527zw4Wn9l3DkJj9xzKd831Cqs7M/view)
 
 ![Screenshot of generator](./assets/readMe1.JPG)
 ![Screenshot of generator](./assets/readMe3.JPG)
