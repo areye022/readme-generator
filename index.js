@@ -125,5 +125,5 @@ function printREADME(license, title, description, installation, usage, contribut
 
 // to create the readme file
 async function saveREADME(readMe) {
-    await writeFileAsync("README.txt", readMe, "utf8");
+    await writeFileAsync("README.md", readMe, "utf8");
 }
