@@ -5,6 +5,7 @@ const inquirer = require("inquirer");
 const util= require("util");
 
 const writeFileAsync= util.promisify(fs.writeFile);
+
 inquirer.prompt([
     //license
     {
@@ -120,4 +121,9 @@ function printREADME(license, title, description, installation, usage, contribut
     console.log(readMe);
 
     saveREADME(readMe);
+}
+
+// to create the readme file
+async function saveREADME(readMe) {
+    await writeFileAsync("README.txt", readMe, "utf8");
 }
