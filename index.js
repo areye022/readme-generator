@@ -87,16 +87,17 @@ function printREADME(license, title, description, installation, usage, contribut
     ### ${title}
     <br>
     
+    ### Table of Contents
+    -[Description](#Description)
+    -[Installation](#Installation)
+    -[Contribution](#contribution)
+    -[Usage](#Usage)
+    -[Test](#Test)
+    -[Link](#Link)
+    -[Contact](#Contact)
+
     ### Description
     ${description}
-    
-    ### Table of Contents
-    -Installation
-    -Usage
-    -Contribution
-    -Test
-    -Link
-    -Contact
     
     ### Installation
     ${installation}
@@ -107,13 +108,10 @@ function printREADME(license, title, description, installation, usage, contribut
     ### Usage
     ${usage}
     
-    ### Contribution
-    ${contribution}
-    
     ### Test
     ${test}
     
-    ### README Entitled Questions
+    ### Link
     Github.com/${githubUsername}/${githubProjectName}
     
     ### Contact Info
